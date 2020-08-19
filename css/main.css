@@ -87,30 +87,40 @@ textarea {
    Author's custom styles
    ========================================================================== */
   
-   #myBImg {
-     width: 500px;
-     height: auto;
-   }
+  #ecran {
+    height: 2em;
+    width: 30rem;
+    background-color: crimson;
+  }
 
-  .dFlex {
+  #zero{
+    width: 20rem;
+    background-color: seagreen;
+    text-align: center;
+  }
+
+  .numberRow {
+    background-color: cyan;
+    width: 20rem;
+  }
+  .mathOperator {
+    background-color: pink;
+    width: 10rem;
+    text-align: center;
+  }
+
+  .dFlex{
     display: flex;
   }
 
-  .myIMG {
-    width: 250px;
-    height: auto;
+  .number {
+    width: 15rem;
+    margin: 1em;
+    text-align: center;
   }
 
-  .smallIMG {
-    width: 200px;
-    height: 200px;
-    margin: 5em;
-  }
-
-  .bigIMG {
-    
-    width: 60%;
-    margin:1em auto;
+  .operator {
+    margin: 1rem;
   }
 /* ==========================================================================
    Helper classes
